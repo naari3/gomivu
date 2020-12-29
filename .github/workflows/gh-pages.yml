@@ -39,6 +39,7 @@ jobs:
         run: npm run build
         env:
           ASSET_PREFIX: /gomivu
+          NEXT_PUBLIC_API_ENDPOINT: ${{ secrets.NEXT_PUBLIC_API_ENDPOINT }}
 
       # 静的なHTMLとしてNext.jsアプリを生成する
       # プロジェクトルート直下にoutディレクトリができる
