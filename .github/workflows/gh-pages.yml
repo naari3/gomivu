@@ -37,6 +37,8 @@ jobs:
       # プロジェクトルート直下に.nextディレクトリができる
       - name: build
         run: npm run build
+        env:
+          ASSET_PREFIX: /gomivu
 
       # 静的なHTMLとしてNext.jsアプリを生成する
       # プロジェクトルート直下にoutディレクトリができる
