@@ -1,11 +1,11 @@
 # https://qiita.com/manten120/items/87e9e822800403904dc8
 name: github pages
 
-# masterブランチにプッシュしたときjobsに記述した操作を行う
+# mainブランチにプッシュしたときjobsに記述した操作を行う
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-deploy:
